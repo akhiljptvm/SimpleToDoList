@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="assets/css/loginstyle.css">
+    <link rel="stylesheet" href="assets/css/Homestyle.css">
+    <link rel="stylesheet" href="assets/css/todo.css">
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    
+</head>
+<body background="assets/images/glenn2.jpg" onload="dateRefr()" >
+
+<!-- nav bootstrap -->
+<nav class="navbar navbar-expand-lg navbar-light sticky-top" id="navb">
+  <div class="container">
+    <a class="navbar-brand animate__animated animate__heartBeat" href="login.html">
+      <img src="assets/images/PinClipart.com_check-list-clip-art_5661943.png" alt="" width="30" height="40" >
+        <span class=" p-2" id="todotext">TODO LIST</span>
+
+    </a>
+    <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0" class= "d-flex">
+        <li class="nav-item">
+          <a class="nav-link active text-white" id="homebtn" aria-current="page" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <u><a class="nav-link " id="todobtn" href="Todo_main.html">Todos</a></u>
+        </li>
+        <li class="nav-item">
+          
+          <a class="nav-link " id="signoutbtn" href="login.html">SignOut</a>
+        </li>
+      </ul>
+      <p id="dateText"></p>
+    </div>
+    
+  </div>
+</nav>
+<!-- nav boot end -->
+
+<!-- table -->
+<div class="container mt-4 " id="table">
+<table class="table text-white table-dark text-center  table-bordered" id="tbdata">
+  <!-- <thead class="table-dark ">
+   
+  </thead>
+  <tbody>
+ 
+  </tbody> -->
+</table>
+</div>
+
+
+
+<!-- table end -->
+
+
+
+
+
+ <div class="text-center" id="progress"> 
+    <div class="spinner-border m-5" role="status" style="position: relative;top: 200px;width:5rem ;height: 5rem;">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      </div>
+
+      <script src="assets/js/login_script.js"></script>
+      <script src="assets/js/todo.js"></script>
+      
+      
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+input[type="checkbox"]{
+    width: 30px;
+    height: 40px;
+    
+}
+
+th{
+    color: rgb(253, 215, 0);  
+}
+#tbdata{
+    border: 5px solid rgba(245, 245, 245, 0.822);
+    border-radius: 10px;
+}
+td:nth-child(3){
+    text-align: left;
+    padding-left: 50px;
+}
+@media only screen and (max-width: 600px){
+    body {
+        margin:0;
+        padding:0;
+        font-family: sans-serif;
+        background-size:3400vh;
+        background-repeat: no-repeat;
+        /* background: linear-gradient(#141e30, #243b55); */
+      }
+}
