@@ -1,5 +1,5 @@
 
-
+var unCheck = 0;
 //first load the json file using link and insert values to table,
 //Lets create AJAX file for load opeartion
 var xhttp = new XMLHttpRequest();
@@ -34,9 +34,9 @@ xhttp.onreadystatechange = function(){
 xhttp.open("GET","https://jsonplaceholder.typicode.com/todos",true)
 xhttp.send();
 
-var unCheck = 0;
+
 function check(){
-    var checkValid =new Promise(function(resolve, response){
+    var checkValid =new Promise(function(resolve,reject){
          var Count = 0;
         // loop through all check box and count checked
         for(var i=0;i<unCheck;i++){
