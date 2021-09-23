@@ -295,4 +295,18 @@ header {
       background-repeat: no-repeat;
       /* background: linear-gradient(#141e30, #243b55); */
     }
+    .login-box {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      height: 500px;
+      width: 360px;
+      padding: 40px;
+      transform: translate(-50%, -50%);
+      background: rgba(0, 0, 0, 0.835);
+      box-sizing: border-box;
+      box-shadow: 0 15px 25px rgba(0, 0, 0, 0.918);
+      border-radius: 10px;
+    }
+    
   }
