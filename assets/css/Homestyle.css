@@ -227,27 +227,27 @@
   border-radius: 8px;
   position: relative;
   margin-top: 10px;
-   width: 350px;
+   width: 360px;
    
   /* height: 43px; */
   background-color: rgba(7, 88, 218, 0.979);
-  box-shadow: 0px 5px 35px #181717 inset;
+  box-shadow: 10px -15px 35px #181717 inset;
   text-align: center;
   color: #fff;
   
 
 }
 #todobtn{
-    margin-left: 20px;
+    margin-left: 15px;
 }
 #signoutbtn{
-    margin-left: 20px;
+    margin-left: 15px;
 }
-/* #homebtn{
-    margin-left: 20px;
-    text-decoration: underline;
+#homebtn{
+    margin-left: 15px;
+    
 
-} */
+}
 #todobtn:hover{
     background-color: rgb(94, 255, 220);
     color: #000;
