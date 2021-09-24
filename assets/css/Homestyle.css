@@ -119,7 +119,7 @@
 }
 #homebtn{
     margin-left: 20px;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 
 }
 #todobtn:hover{
@@ -226,7 +226,6 @@
   font-weight: bold;
   border-radius: 8px;
   position: relative;
-  left: px;
   margin-top: 10px;
    width: 350px;
    
@@ -244,11 +243,11 @@
 #signoutbtn{
     margin-left: 20px;
 }
-#homebtn{
+/* #homebtn{
     margin-left: 20px;
     text-decoration: underline;
 
-}
+} */
 #todobtn:hover{
     background-color: rgb(94, 255, 220);
     color: #000;
