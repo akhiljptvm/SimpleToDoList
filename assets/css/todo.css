@@ -15,6 +15,11 @@ td:nth-child(3){
     text-align: left;
     padding-left: 50px;
 }
+/* input[type=checkbox]:checked + td {
+    color:red;
+    text-decoration: line-through;
+  } /*This is the MDN spec for doing this*/
+
 @media only screen and (max-width: 600px){
     body {
         margin:0;

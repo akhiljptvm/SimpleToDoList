@@ -9,17 +9,18 @@ xhttp.onreadystatechange = function(){
         var out = "<tr><th>USER ID</th><th>ID</th><th>TITLE</th><th>COMPLETED</th></tr>"
         for(i=0;i<res.length;i++){
          
-            out += "<tr>";
+            out += "<tr>"
             out += "<td >" +res[i].userId+ "</td>"
             out += "<td>" +res[i].id+ "</td>"
-            out += "<td>" +res[i].title+ "</td>"
+            out += `<td>` +res[i].title+ `</td>`
            
             //check box
             if(res[i].completed == true){
                 out += `<th><input type="checkbox" checked disabled  onChange = "check()"></th>`;
             }
-            else{
-                out += `<th><input type = "checkbox" id="checkbox${unCheck}" oninput = "check()"></th>`;
+            else{               
+                out += `<th><input type = "checkbox" class="strik" id="checkbox${unCheck}" oninput = "check()"></th>`;
+               
                 unCheck += 1
             }
             
@@ -33,6 +34,8 @@ xhttp.onreadystatechange = function(){
 }
 xhttp.open("GET","https://jsonplaceholder.typicode.com/todos",true)
 xhttp.send();
+
+
 
 
 function check(){

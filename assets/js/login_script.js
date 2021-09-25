@@ -13,8 +13,14 @@ function userCheck(user,pass,successLogin,errorLogin){
     }
 }
 function successLogin(){
+        var errorLabel =  document.getElementById("error");
+        errorLabel.innerHTML = "Login Success,Lets go.."
+        errorLabel.style.color = "green"
+        // errorLabel.style.fontSize = "20px"
+        errorLabel.removeAttribute("hidden",true);
+        return true;
 
-    return true;
+
 }
 function errorLogin(){
     var errorLabel =  document.getElementById("error");
